@@ -1,0 +1,14 @@
+1.  No exponer datos personales  
+   Ocultar cédulas, direcciones, teléfonos y correos en perfiles públicos. Solo mostrar lo necesario. Evita robo de identidad y suplantación.
+
+ 2.  Proteger credenciales  
+   Exigir contraseñas fuertes + activar verificación en 2 pasos 2FA. Nunca guardar claves en texto plano en la base de datos. Usa cifrado.
+
+ 3.  Usar conexiones seguras  
+   La plataforma debe usar HTTPS con certificado SSL. Así nadie puede "escuchar" las claves o mensajes que viajan entre el usuario y el servidor.
+
+ 4.  Registrar accesos / Logs  
+   Guardar un registro de quién entró, desde qué IP y a qué hora. Si hay un hackeo, los logs te ayudan a saber cómo entraron y qué hicieron.
+
+ 5.  Limitar acceso a información sensible  
+   Aplicar "mínimo privilegio": un usuario normal no puede borrar cuentas ni ver datos de otros. Solo los admins tienen permisos totales.

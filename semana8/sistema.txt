@@ -1,0 +1,27 @@
+COMANDOS BÁSICOS DE LINUX Y SU INFORMACIÓN:
+
+1. pwd - "Print Working Directory"
+   Muestra: La ruta completa de la carpeta donde estás parado ahora.
+   Ej: /home/usuario/servidor
+
+2. ls - "List"
+   Muestra: Todos los archivos y carpetas que hay en el directorio actual.
+
+3. whoami
+   Muestra: El nombre del usuario que está usando el sistema ahora mismo.
+
+4. uname -a
+   Muestra: Información del sistema operativo: versión de Linux, kernel, arquitectura del PC.
+
+5. top / htop
+   Muestra: Los procesos que se están ejecutando y cuánta CPU/RAM están gastando.
+
+6. df -h
+   Muestra: Espacio libre y usado en los discos del servidor.
+
+POR QUÉ ES ÚTIL CONOCER ESTA INFORMACIÓN EN UN SERVIDOR:
+
+1. Diagnóstico rápido: Si el servidor va lento, con 'top' ves qué proceso consume toda la RAM o CPU.
+2. Seguridad: Con 'whoami' confirmas que no estás como usuario root haciendo algo peligroso. 
+3. Espacio: Con 'df -h' evitas que el servidor se caiga porque el disco se llenó de logs.
+4. Ubicación
